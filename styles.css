@@ -1,3 +1,31 @@
-body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-.container { max-width: 600px; margin: auto; }
-button { padding: 10px; cursor: pointer; }
+body { 
+    font-family: 'Arial', sans-serif;
+    text-align: center; 
+    padding: 20px; 
+    background: linear-gradient(to right, #0084ff, #00c6ff); 
+    color: white;
+}
+
+.container { 
+    max-width: 600px; 
+    margin: auto; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2); 
+    color: black;
+}
+
+button { 
+    background: #0084ff; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover { 
+    background: #0066cc;
+}
