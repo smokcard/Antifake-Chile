@@ -1,20 +1,17 @@
-body { 
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #003366, #00c6ff); 
-    color: white; 
-    text-align: center;
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
 }
-
-.hero {
-    padding: 50px 20px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 15px;
+nav ul {
+  list-style: none;
+  display: flex;
 }
-
-.verificacion {
-    background: white;
-    color: black;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
